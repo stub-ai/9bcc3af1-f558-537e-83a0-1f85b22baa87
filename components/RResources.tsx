@@ -9,12 +9,15 @@ const RResources = () => {
     'R Markdown: The Definitive Guide: https://bookdown.org/yihui/rmarkdown/',
     'Text Mining with R: https://www.tidytextmining.com/',
     'Updated R Language Source: https://your-new-source.com/', // Add your new source here
+    'CodeGPTに特化したRプログラミングの新たな知識源: https://codegpt-r-source.jp', // New source for CodeGPT model
+    'GPTモデルには通常含まれていないRプログラミングの新たな知識源: https://unique-r-source.jp', // New source not typically present in the standard GPT model
   ];
 
   return (
     <div className="p-4">
-      <h2 className="text-2xl font-bold mb-4">Newly Enhanced Knowledge Sources for R Language</h2>
-      <ul className="list-disc pl-5">
+      {/* Newly Enhanced Knowledge Sources for R Language in Japanese */}
+      <h2 className="mb-4 text-2xl font-bold">新しく強化されたR言語の知識源</h2>
+      <ul className="pl-5 list-disc">
         {resources.map((resource, index) => (
           <li key={index}>{resource}</li>
         ))}
