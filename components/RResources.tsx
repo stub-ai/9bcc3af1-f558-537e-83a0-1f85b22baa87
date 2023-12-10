@@ -8,6 +8,7 @@ const RResources = () => {
     'Efficient R programming: https://csgillespie.github.io/efficientR/',
     'R Markdown: The Definitive Guide: https://bookdown.org/yihui/rmarkdown/',
     'Text Mining with R: https://www.tidytextmining.com/',
+    'Updated R Language Source: https://your-new-source.com/', // Add your new source here
   ];
 
   return (
